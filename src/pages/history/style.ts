@@ -46,9 +46,10 @@ export const HistoryList = styled.div`
         td{
             background-color: ${(props) => props.theme["gray-700"]};
             border-top: 4px solid ${(props) => props.theme["gray-800"]};
-            padding: 1rem;
+            padding: 0.8rem;
+           
 
-            line-height: 1.6rem;
+            line-height: 2rem;
 
             &:first-child{
                 width: 50%;
